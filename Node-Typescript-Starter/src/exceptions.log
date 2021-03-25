@@ -1,0 +1,604 @@
+{
+  error: [96msrc/routes/hero.route.ts[0m:[93m7[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'calSum' does not exist on type 'typeof import("C:/Users/Abubakar/Desktop/OnBoarding Test/Node-Typescript-Starter/src/controllers/hero.controller")'.
+  
+  [7m7[0m router.get("/calculator", calculator.calSum);
+  [7m [0m [91m                                     ~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    `\u001b[96msrc/routes/hero.route.ts\u001b[0m:\u001b[93m7\u001b[0m:\u001b[93m38\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty 'calSum' does not exist on type 'typeof import("C:/Users/Abubakar/Desktop/OnBoarding Test/Node-Typescript-Starter/src/controllers/hero.controller")'.\r\n` +
+    '\r\n' +
+    '\u001b[7m7\u001b[0m router.get("/calculator", calculator.calSum);\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                     ~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    `\u001b[96msrc/routes/hero.route.ts\u001b[0m:\u001b[93m7\u001b[0m:\u001b[93m38\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty 'calSum' does not exist on type 'typeof import("C:/Users/Abubakar/Desktop/OnBoarding Test/Node-Typescript-Starter/src/controllers/hero.controller")'.\r\n` +
+    '\r\n' +
+    '\u001b[7m7\u001b[0m router.get("/calculator", calculator.calSum);\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                     ~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    `\u001b[96msrc/routes/hero.route.ts\u001b[0m:\u001b[93m7\u001b[0m:\u001b[93m38\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty 'calSum' does not exist on type 'typeof import("C:/Users/Abubakar/Desktop/OnBoarding Test/Node-Typescript-Starter/src/controllers/hero.controller")'.\r\n` +
+    '\r\n' +
+    '\u001b[7m7\u001b[0m router.get("/calculator", calculator.calSum);\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                     ~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  exception: true,
+  date: 'Thu Mar 25 2021 08:38:49 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 14124,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.19.0',
+    argv: [
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\src\\main.ts'
+    ],
+    memoryUsage: {
+      rss: 149286912,
+      heapTotal: 121122816,
+      heapUsed: 93203488,
+      external: 2013512,
+      arrayBuffers: 173974
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5898 },
+  trace: [
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1035,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 879,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 724,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 903,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-03-25T03:38:49.399Z'
+}
+{
+  error: [96msrc/routes/index.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module './hero.route' or its corresponding type declarations.
+  
+  [7m1[0m import { heroRoutes } from "./hero.route";
+  [7m [0m [91m                           ~~~~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/routes/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.route' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import { heroRoutes } from "./hero.route";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/routes/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.route' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import { heroRoutes } from "./hero.route";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/routes/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.route' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import { heroRoutes } from "./hero.route";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  exception: true,
+  date: 'Thu Mar 25 2021 08:40:29 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 1916,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.19.0',
+    argv: [
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\src\\main.ts'
+    ],
+    memoryUsage: {
+      rss: 149442560,
+      heapTotal: 120598528,
+      heapUsed: 91988976,
+      external: 2013512,
+      arrayBuffers: 173974
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5998 },
+  trace: [
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1035,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 879,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 724,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 903,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-03-25T03:40:29.405Z'
+}
+{
+  error: [96msrc/routes/index.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module './hero.route' or its corresponding type declarations.
+  
+  [7m1[0m import { heroRoutes } from "./hero.route";
+  [7m [0m [91m                           ~~~~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/routes/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.route' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import { heroRoutes } from "./hero.route";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/routes/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.route' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import { heroRoutes } from "./hero.route";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/routes/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.route' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import { heroRoutes } from "./hero.route";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  exception: true,
+  date: 'Thu Mar 25 2021 08:40:54 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 14176,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.19.0',
+    argv: [
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\src\\main.ts'
+    ],
+    memoryUsage: {
+      rss: 146333696,
+      heapTotal: 117977088,
+      heapUsed: 99872144,
+      external: 2530831,
+      arrayBuffers: 691293
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6023 },
+  trace: [
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1035,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 879,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 724,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 903,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-03-25T03:40:54.464Z'
+}
+{
+  error: [96msrc/controllers/index.ts[0m:[93m1[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './hero.controller' or its corresponding type declarations.
+  
+  [7m1[0m import * as calculator from "./hero.controller";
+  [7m [0m [91m                            ~~~~~~~~~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.controller' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import * as calculator from "./hero.controller";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.controller' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import * as calculator from "./hero.controller";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module './hero.controller' or its corresponding type declarations.\r\n" +
+    '\r\n' +
+    '\u001b[7m1\u001b[0m import * as calculator from "./hero.controller";\r\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n' +
+    '\n' +
+    '    at createTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:434:12)\n' +
+    '    at reportTSError (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:438:19)\n' +
+    '    at getOutput (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:578:36)\n' +
+    '    at Object.compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:775:32)\n' +
+    '    at Module.m._compile (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:879:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:724:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:903:19)',
+  exception: true,
+  date: 'Thu Mar 25 2021 08:42:31 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 13980,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.19.0',
+    argv: [
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\src\\main.ts'
+    ],
+    memoryUsage: {
+      rss: 147771392,
+      heapTotal: 118763520,
+      heapUsed: 99993624,
+      external: 2495947,
+      arrayBuffers: 656409
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6120 },
+  trace: [
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1035,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Abubakar\\Desktop\\OnBoarding Test\\Node-Typescript-Starter\\node_modules\\ts-node\\src\\index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 879,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 724,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 903,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-03-25T03:42:31.183Z'
+}
